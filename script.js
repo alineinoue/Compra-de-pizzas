@@ -165,7 +165,7 @@ function updateCart(){
                     break;
             }
 
-            let pizzaName = `${pizzaItem.name} (${pizzaSizeName})`; //Contatenar o nome com o tamanho da pizza
+            let pizzaName = `${pizzaItem.name} (${pizzaSizeName})`; //Concatenar o nome com o tamanho da pizza
             //preencher as informações no carrinho
             cartItem.querySelector('img').src = pizzaItem.img;
             cartItem.querySelector('.cart--item-nome').innerHTML = pizzaName;
